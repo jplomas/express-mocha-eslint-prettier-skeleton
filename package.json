@@ -1,0 +1,29 @@
+{
+  "name": "express-mocha-eslint-prettier-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npx mocha --reporter spec test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jplomas/express-mocha-eslint-prettier-skeleton.git"
+  },
+  "author": "JP Lomas <jp@lomas.doctor>",
+  "license": "To be determined",
+  "bugs": {
+    "url": "https://github.com/jplomas/express-mocha-eslint-prettier-skeleton/issues"
+  },
+  "homepage": "https://github.com/jplomas/express-mocha-eslint-prettier-skeleton#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "eslint": "^8.9.0",
+    "mocha": "^9.2.0",
+    "request": "^2.88.2"
+  }
+}
